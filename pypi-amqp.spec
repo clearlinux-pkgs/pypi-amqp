@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-amqp
-Version  : 5.3.0
-Release  : 8
-URL      : https://files.pythonhosted.org/packages/22/67/aa3a614549ba199bda2582bd7476e03c457d179c02a69fea14ec210ff30c/amqp-5.3.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/22/67/aa3a614549ba199bda2582bd7476e03c457d179c02a69fea14ec210ff30c/amqp-5.3.0.tar.gz
+Version  : 5.3.1
+Release  : 9
+URL      : https://files.pythonhosted.org/packages/79/fc/ec94a357dfc6683d8c86f8b4cfa5416a4c36b28052ec8260c77aca96a443/amqp-5.3.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/79/fc/ec94a357dfc6683d8c86f8b4cfa5416a4c36b28052ec8260c77aca96a443/amqp-5.3.1.tar.gz
 Summary  : Low-level AMQP client for Python (fork of amqplib).
 Group    : Development/Tools
 License  : BSD-3-Clause-Clear
@@ -57,10 +57,10 @@ python3 components for the pypi-amqp package.
 
 
 %prep
-%setup -q -n amqp-5.3.0
-cd %{_builddir}/amqp-5.3.0
+%setup -q -n amqp-5.3.1
+cd %{_builddir}/amqp-5.3.1
 pushd ..
-cp -a amqp-5.3.0 buildavx2
+cp -a amqp-5.3.1 buildavx2
 popd
 
 %build
@@ -68,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1731431024
+export SOURCE_DATE_EPOCH=1731451823
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
