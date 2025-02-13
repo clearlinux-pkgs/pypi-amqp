@@ -7,7 +7,7 @@
 #
 Name     : pypi-amqp
 Version  : 5.3.1
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/79/fc/ec94a357dfc6683d8c86f8b4cfa5416a4c36b28052ec8260c77aca96a443/amqp-5.3.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/79/fc/ec94a357dfc6683d8c86f8b4cfa5416a4c36b28052ec8260c77aca96a443/amqp-5.3.1.tar.gz
 Summary  : Low-level AMQP client for Python (fork of amqplib).
